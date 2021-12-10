@@ -1,0 +1,217 @@
+/*ESTRUTURA DE BASES
+
+**** DECLARAÇÃO DE VARIÁVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PAGINA INICIAL
+**** EXTRAS
+**** @MIDEA
+
+front-family: 'Open Sans', sans-serif: - FONTE BAIXADA PARA USAR COMO "PADRÃO"
+
+*/
+
+/* ESTILOS GERAIS - Regra reset, zera toda estilização padrão do navegador*/
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.coluna{
+    flex-basis: 49%;
+}
+
+.hidden{
+    display: none; /*ESCONDER ELEMENTO (DISPLAY: NONE)*/
+}
+
+/* BODY - TODO CONTEÚDO DA PÁGINA (COPIAMOS E COLAMOS O CSS DO SITE)*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: #45dbfd;
+    padding-top: 30px;
+}
+header .container{
+    background-color: white;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 30px;
+    flex-basis: 75%;
+}
+
+header .linha{
+    align-items: center;
+}
+header .coluna{}
+header .coluna-esquerda{
+    flex-basis: 25%;
+
+}
+header .coluna-direita{
+    flex-basis: 70%;
+
+}
+header .coluna figure{}
+header .coluna img{
+    max-width: 250px;
+    border-radius: 100%;
+}
+header .container h1{
+    font-size: 1.5rem;
+    margin: 10 0 12px;
+}
+header .container p{
+    font-size: 0.9rem;
+    color: #636363;
+    margin: 10 0 9px;
+
+}
+header .container ul{
+    margin: 15px 0 0 0;
+}
+
+header .container ul li{
+    margin: 0 0 9px;
+}
+header .container ul li a{
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* FOOTER */
+footer{
+    background-color: #04133d;
+}
+footer container{}
+footer nav{}
+footer nav ul{}
+footer nav ul li{
+    margin: 0px 20px 15px;
+}
+footer nav ul li a{
+    color: white;
+    font-size: 0.8rem;
+}
+footer nav .inf-contato{}
+footer nav .inf-contato li{
+    margin: 0 0 15px;
+}
+footer nav .inf-contato li a{}
+footer nav .redes-sociais{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 40px;
+    padding: 40px 0 0;
+}
+footer nav .redes-sociais li{}
+footer nav .redes-sociais li a{}
+
+footer nav .redes-sociais li a p{
+    text-align: center;
+}
+
+footer nav .redes-sociais li a img{
+    width: 53px;
+}
+footer nav .redes-sociais li a img p{}
+
+
+
+/* PAGINA INICIAL (MAIN - Todo o conteúdo)*/
+main {}
+main .container{}
+main .linha{}
+main .coluna{}
+main .coluna-esquerda{}
+main .coluna-direita{}
+
+main .coluna-esquerda section{
+    min-height: 140px;
+}
+
+main .coluna-direita section{
+    min-height: 337px;
+}
+
+main .coluna section{
+    border: 1px solid #e4e6e8;
+    margin: 0 0 20px;
+    padding: 20px;  
+}
+main .coluna section h2{
+    font-size: 1.3rem;
+    line-height: 2.0;
+    margin: 0 0 1px;
+} 
+
+main .coluna section strong{
+    line-height: 2;
+    font-size: 0.9rem;
+}
+
+main .coluna section h3{}
+main .coluna section h4{
+    /*font-size: 0.8rem;*/
+}
+main .coluna section p{
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+}
+main .coluna section ul{
+    line-height: 1.8;
+    margin: 0 0 18px;
+}
+main .coluna section ul li{
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.7;
+    margin: 10px 0 9px;
+    margin-top: 0px;
+}
+main .coluna section ul li h3{
+    font-size: 1.1rem;
+    color: black;
+    margin: 0 0 3px;
+    margin-top: 15px;
+}
+main .coluna section ul li p{
+    line-height: 2;
+}
+main .coluna section ul li strong{
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+
+/* EXTRAS (ESTILOS A MAIS, EXTRAS)*/
+
+
+
+/* @MIDEA (PERMITE ABRIR NO CELULAR) */
